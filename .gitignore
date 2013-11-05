@@ -1,0 +1,17 @@
+/*/build
+/*/.settings
+/*/.classpath
+/*/bin
+/*/generated
+/*/target
+/*/plugin.xml
+/.idea/misc.xml
+/.idea/workspace.xml
+*.ipr
+*.iws
+.gradle
+.idea/dictionaries/
+build
+cert
+out
+target
