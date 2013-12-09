@@ -1,8 +1,5 @@
 package grails.issues
 
-import grails.test.mixin.TestMixin
-import grails.test.mixin.integration.IntegrationTestMixin
-import org.junit.Before
 import org.junit.Test
 
 /**

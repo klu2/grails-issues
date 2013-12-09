@@ -11,7 +11,7 @@ import org.junit.Test
 class BlogIntegrationTests {
 
     /**
-     * This test fails in Grails 2.3.1 due to http://jira.grails.org/browse/GRAILS-10727 (entries is null)
+     * This test fails in Grails 2.3.4 due to http://jira.grails.org/browse/GRAILS-10727 (entries is null)
      */
     @Test
     void testCreateBlog() {
