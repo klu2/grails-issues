@@ -16,12 +16,12 @@ class CalendarTests {
      * @see http://jira.grails.org/browse/GRAILS-10728
      */
     void testInitiateWithConstructor() {
-        def cal  = new Calendar(workdays: [java.util.Calendar.MONDAY, java.util.Calendar.TUESDAY]).save()
+        def cal = new Calendar(workdays: [java.util.Calendar.MONDAY, java.util.Calendar.TUESDAY]).save(failOnError: true)
         assert cal != null
     }
 
     void testInitiateWithSetter() {
-        def cal  = new Calendar()
+        def cal = new Calendar()
         cal.workdays = [java.util.Calendar.MONDAY, java.util.Calendar.TUESDAY]
         cal = cal.save()
         assert cal != null

@@ -12,12 +12,12 @@ class Calendar {
     String _workdaysAsString
     private transient Set<Integer> _workdays
 
-    Collection<Integer> getWorkdays() {
+    Set<Integer> getWorkdays() {
         checkWorkdaysInitialized()
         return Collections.unmodifiableSet(_workdays)
     }
 
-    void setWorkdays(Collection<Integer> workdays) {
+    void setWorkdays(Set<Integer> workdays) {
         _workdays = new HashSet<Integer>(workdays)
         updateWorkdays()
     }
