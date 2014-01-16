@@ -9,6 +9,9 @@ import org.junit.Test
 @TestMixin(IntegrationTestMixin)
 class UpdateBlogCommandIntegrationTests {
 
+    /**
+     * This test fails due to http://jira.grails.org/browse/GRAILS-10997
+     */
     @Test
     void bindData() {
         def params = [:]
